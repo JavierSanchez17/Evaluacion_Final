@@ -16,13 +16,13 @@ Son conjuntos de componentes interrelacionados que recolectan y almacenan inform
 
 1. Este tema se puede dividir en: 
 - Base de datos
- - Redundancia de datos
-  - Inconsistencia de datos 
-   - Sistema de administración de datos
-    - DBMS relacional
+    - Redundancia de datos
+        - Inconsistencia de datos 
+            - Sistema de administración de datos
+                - DBMS relacional
 
 2. La red de computadoras se compone por:
 - Internet
- - Red de computadoras
-  - Red corporativa 
+    - Red de computadoras
+        - Red corporativa 
  
