@@ -16,10 +16,27 @@ int main()
      * Clave 1: Si un número tiene al menos uno de estos dígitos: 2, 3, 4, 5 o 7, entonces no es un número estrobogramático
      * Clave 2: No solo basta con tener los dígitos correctos, recuerde que al girarlo 180 grados se debe tener el mismo orden
      */
-    cout << "Challenge #2" << endl;
     int num;
+    int aux;
+    cout << "Challenge #2" << endl;
     cout << "Ingrese un numero:" << endl;
     cin >> num;
-    // Comience a programar desde aquí
-    return 0;
+    aux = num;
+    if (num == 2 || num == 3 || num == 4 || num == 5 || num == 7) {
+        cout << "El numero ingresado NO es un numero estrobogramatico" << endl;
+        system("pause");
+    }
+    while (num > 0) {
+        cout << num % 10;
+        num = num / 10;
+        }
+        if (aux == num) {
+            cout << " El numero ingresado SI es un numero estrobrogramatico" << endl;
+            system("pause");
+        }
+        else if (aux != num) {
+            cout << "El numero ingresado NO es un numero estrobogramatico" << endl;
+            system("pause");
+        }
+        return 0;
 }
